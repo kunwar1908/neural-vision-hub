@@ -1,0 +1,38 @@
+# 🚀 Git Commands to Push Neural Vision Hub to Repository
+
+# Navigate to the GAD project directory
+cd "c:\Users\kunwa\Python\Projects\gad"
+
+# Initialize git repository (if not already done)
+git init
+
+# Add all files to staging
+git add .
+
+# Commit with a descriptive message
+git commit -m "🔮 Initial release: Neural Vision Hub - Futuristic AI Face Analysis System
+
+✨ Features:
+- Cyberpunk-themed Streamlit interface with neon effects
+- Real-time gender, age, and emotion detection
+- Advanced face detection with enhanced visualizations
+- Live webcam analysis with futuristic overlays
+- Performance monitoring and analytics dashboard
+- Comprehensive documentation and requirements
+
+🎯 Technical Stack:
+- Python 3.12 + TensorFlow 2.16 + OpenCV + Streamlit
+- FER emotion recognition + Custom CNN models
+- Matrix-inspired UI with animated gradients
+
+🛠️ Ready for production deployment with full documentation"
+
+# Add remote repository (replace with your actual repo URL)
+git remote add origin https://github.com/kunwar1908/neural-vision-hub.git
+
+# Push to main branch
+git push -u origin main
+
+# Alternative: If you want to push to a specific branch
+# git checkout -b neural-vision-hub
+# git push -u origin neural-vision-hub
